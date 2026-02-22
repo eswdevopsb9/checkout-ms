@@ -1,2 +1,10 @@
 apiVersion: V1
 kind: Pd
+metadata:
+  name: my-pod
+  labels:
+    app: my-app
+Spec: 
+  containers:
+  - name: metadata
+    image: my-image-latest
